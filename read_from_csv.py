@@ -18,5 +18,6 @@ class ReadCsv:
 
 
 
-object = ReadCsv("/Users/lincolnlin/PycharmProjects/NFL_Data_Visualization/games_data/regular_season/reg_games_2009.csv")
-print(object.data)
+object = ReadCsv("/Users/lincolnlin/PycharmProjects/NFL_Data_Visualization/games_data/passing_leader_yards_by_year.csv")
+print(object.filter_column(["Year", "Yards"]))
+
