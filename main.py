@@ -2,6 +2,11 @@
 
 # Press ⇧F10 to execute it or replace it with your code.
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+import dash
+import plotly
+import plotly.express as px
+import dash_core_components as dcc
+import dash_html_components as html
 
 import plotly
 import plotly.express as px
