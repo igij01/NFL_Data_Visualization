@@ -14,10 +14,6 @@ class ReadCsv:
         return self.data[key]
 
     def filter_column_rmdup(self, key=[]):
-        return self.filter_column(self, key).drop_duplicates()
+        return self.filter_column(key).drop_duplicates()
 
-
-
-object = ReadCsv("/Users/lincolnlin/PycharmProjects/NFL_Data_Visualization/games_data/passing_leader_yards_by_year.csv")
-print(object.filter_column(["Year", "Yards"]))
 
